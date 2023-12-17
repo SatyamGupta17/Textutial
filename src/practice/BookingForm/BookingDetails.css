@@ -1,0 +1,32 @@
+/* BookingDetails.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0275d8;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .booking-label {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bolder;
+  }
+  
+  .inputs{
+    font-size: 22px;
+  }
+
+  .changeSelection{
+    font-size: 30px;
+    margin-left: 10px;
+    background-color: #FFC436;
+    color: #000;
+  }
+  .changeSelection:hover{
+    background-color: #FFC436;
+    color: #000;
+    text-decoration: underline;
+  }

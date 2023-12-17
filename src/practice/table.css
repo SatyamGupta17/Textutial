@@ -1,0 +1,32 @@
+/* table.css */
+.table-container {
+    max-height: 200px; /* Set the maximum height for the table container */
+    overflow-y: scroll; /* Add vertical scrolling when content overflows */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #f0f0f0;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  tbody {
+    display: block; /* Allow for vertical scrolling */
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #fff;
+  }
+  
